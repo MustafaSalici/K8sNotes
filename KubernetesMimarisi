@@ -1,0 +1,20 @@
+Master Node:
+  kube-apiserver:
+  etcd:
+  controller:
+    node controller:
+    replica controller
+  scheduler:
+
+Worker Node:
+  kubelet: 
+  container runtime: 
+
+Container Runtime Interface (CRI): Kubernetes’in farklı container runtime (örneğin, Docker, containerd, CRI-O) sistemleriyle entegre olabilmesini sağlayan bir arayüz (API) standardıdır.
+
+Cluster > Node > Namespace > Pod > Container
+
+kubectl run nginx --image nginx
+kubectl create deployment nginx --image=nginx
+kubectl describe pod nginx
+
